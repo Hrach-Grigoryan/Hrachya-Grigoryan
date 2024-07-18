@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    font-family: cursive;
+}
+div h1{
+    background-image: url(https://st4.depositphotos.com/39251066/41154/i/450/depositphotos_411542794-stock-photo-abstract-blue-yellow-gradient-wave.jpg);
+    font-size:230px ;
+    color: rgba(225, 255, 255, 0);
+    background-size: 950px;
+    background-clip: text;
+    animation: assa 3s linear infinite;
+
+}
+@keyframes assa{
+    from{
+        background-position: left 0 top 0;
+    }
+    to{
+        background-position: left 800px top 0;
+    }
+}
+div h1{
+    text-align: center;
+}
